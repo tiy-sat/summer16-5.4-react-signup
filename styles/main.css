@@ -1,3 +1,40 @@
 /*
   Main Stylesheet
 */
+
+html {
+  /* Setting baseline for font size of children elements where 0.1rem == 1px */
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.4rem
+}
+
+.input {
+  border: 2px solid darkblue;
+  border-radius: 4px;
+  font-size: 1.8rem;
+  outline: none;
+  margin-right: 1rem;
+}
+
+.input--invalid {
+  border-color: darkred;
+}
+
+.input--submit {
+  border: none;
+  font-size: 1.8rem;
+  padding: 0.8rem 0.4rem;
+  border-radius: 4px;
+  background-color: darkblue;
+  color: white;
+  -webkit-appearance: none;
+}
+
+.input--disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+  background-color: grey;
+}
